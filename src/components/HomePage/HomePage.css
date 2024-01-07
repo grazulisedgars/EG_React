@@ -1,0 +1,78 @@
+.custom-p-5 {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    text-align: right;
+    background-image: url("../../assets/images/ReactPhoto.jpeg");
+    background-size: 123%;
+    background-position: 194% 35%;
+}
+
+/* Text color */
+.custom-py-5 {
+    padding-top: 3vw;
+    color: white;
+}
+
+/* Title positioning */
+.display-5 {
+    margin-right: 5vw;
+}
+
+/* React Portfolio */
+.custom-fs-4 {
+    margin-right: 5vw;
+    padding-top: 1vw;
+}
+
+/* Brand values styling */
+.c-fs-4 {
+    margin-right: 5vw;
+    padding-top: 15vw;
+    padding-left: 40vw;
+}
+
+/* Right margin */
+@media (min-width: 768px) {
+    .custom-col-md-8 {
+        margin-right: 5vw !important;
+    }
+}
+
+/* Small screen text */
+@media (min-width: 320px) {
+    .display-5 {
+        font-size: 8vw !important;
+    }
+}
+
+/* Padding and font size for small screens */
+@media (min-width: 320px) and (max-width: 425px) {
+    .display-5 {
+        margin-right: 3vw;
+    }
+
+    .custom-fs-4 {
+        font-size: 4vw;
+        margin-right: 3vw;
+        
+    }
+
+    .c-fs-4 {
+        font-size: 2.5vw;
+        margin-right: 3vw;
+    }
+}
+
+/* Big screen text */
+@media (min-width: 1024px) and (max-width: 4000px) {
+    .custom-fs-4 {
+        font-size: 4vw;
+        margin-right: 3vw;
+        
+    }
+    .c-fs-4 {
+        font-size: 2.5vw;
+        margin-right: 3vw;
+        padding-left: 45vw;
+    }
+}
