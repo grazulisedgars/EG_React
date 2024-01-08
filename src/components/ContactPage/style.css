@@ -19,3 +19,26 @@
     background-color: #f9b301;
     color: white;
 }
+
+/* Text for 4k */
+@media (min-width: 2560px) {
+    .contactForm h2{
+        font-size: 3vw;
+    }
+
+    .contactForm h3 {
+        font-size: 3vw;
+    }
+
+    .contactForm p {
+        font-size: 1.5vw;
+    }
+
+    .contactFormForm {
+        font-size: 1.5vw;
+    }
+
+    .btn.btn-custom {
+        font-size: 1.5vw;
+    }
+}

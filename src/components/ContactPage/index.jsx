@@ -17,7 +17,7 @@ function ContactPage() {
                 LinkedIn: <a href="https://www.linkedin.com/in/grazulisedgars95/">grazulisedgars</a>
             </p>
             <h3 className="contactHeader">Any Questions?</h3>
-            <form>
+            <form className="contactFormForm">
                 <div className="form-group">
                     <label htmlFor="exampleInputEmail1">Your email address</label>
                     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
