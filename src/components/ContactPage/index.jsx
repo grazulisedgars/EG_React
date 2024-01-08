@@ -1,10 +1,12 @@
 import React from "react";
+import "../ContactPage/style.css"
 
 function ContactPage() {
     const emailAddress = 'grazulisedgars@gmail.com';
     return (
         <>
-            <h2>Contact Information</h2>
+        <div className="contactForm">
+            <h2 className="contactHeader">Contact Information</h2>
             <p>Email address: <a href={`mailto:${emailAddress}`}>{emailAddress}</a></p>
             <p>Download CV: <a href="src/assets/CV/Edgars Grazulis CV UK.pdf" target="_blank" rel="noopener noreferrer"> (PDF) </a>
             </p>
@@ -14,7 +16,7 @@ function ContactPage() {
             <p>
                 LinkedIn: <a href="https://www.linkedin.com/in/grazulisedgars95/">grazulisedgars</a>
             </p>
-            <h3>Any Questions?</h3>
+            <h3 className="contactHeader">Any Questions?</h3>
             <form>
                 <div className="form-group">
                     <label htmlFor="exampleInputEmail1">Your email address</label>
@@ -28,8 +30,9 @@ function ContactPage() {
                 </div>
                 <div className="form-group form-check">
                 </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
+                <button type="submit" className="btn btn-custom">Submit</button>
             </form>
+            </div>
         </>
     );
 }

@@ -1,0 +1,21 @@
+/* Margin around contact form */
+.contactForm {
+    margin: 5vw;
+}
+
+/* Link color */
+.contactForm a {
+    color:black;
+}
+
+/* Settings for headers */
+.contactHeader {
+    padding-bottom: 2vw;
+    padding-top: 3vw;
+}
+
+/* Button color */
+.btn.btn-custom {
+    background-color: #f9b301;
+    color: white;
+}
