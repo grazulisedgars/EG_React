@@ -1,12 +1,20 @@
 import React from "react";
 
 function ContactPage() {
+    const emailAddress = 'grazulisedgars@gmail.com';
     return (
         <>
-            <p className="col-md-8 fs-4"> LinkedIn: (LinkedIn link)</p>
-            <p className="col-md-8 fs-4"> Email: (email address)</p>
-            <p className="col-md-8 fs-4"> GitHub: (GitHub)</p>
-            <p className="col-md-8 fs-4"> CV: (link to PDF)</p>
+            <h2>Contact Information</h2>
+            <p>Email address: <a href={`mailto:${emailAddress}`}>{emailAddress}</a></p>
+            <p>Download CV: <a href="src/assets/CV/Edgars Grazulis CV UK.pdf" target="_blank" rel="noopener noreferrer"> (PDF) </a>
+            </p>
+            <p>
+                GitHub: <a href="https://github.com/grazulisedgars/">grazulisedgars</a>
+            </p>
+            <p>
+                LinkedIn: <a href="https://www.linkedin.com/in/grazulisedgars95/">grazulisedgars</a>
+            </p>
+            <h3>Any Questions?</h3>
             <form>
                 <div className="form-group">
                     <label htmlFor="exampleInputEmail1">Your email address</label>
