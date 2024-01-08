@@ -1,6 +1,6 @@
 import React from "react";
 
-function Wrapper(props) {
+function ProjectsPage(props) {
 
     return (
         <>
@@ -10,4 +10,4 @@ function Wrapper(props) {
     )
   }
   
-  export default Wrapper;
+  export default ProjectsPage;

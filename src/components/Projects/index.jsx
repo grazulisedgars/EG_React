@@ -3,27 +3,22 @@ import React from "react";
 function FriendCard(props) {
   return (
     <>
-   
-    <div className="card">
-      <div className="img-container">
-        <img alt={props.title} src={props.screenshot} />
+
+      <div className="card">
+        <div className="img-container">
+          <img alt={props.title} src={props.screenshot} />
+        </div>
+        <div className="content">
+        <p><strong>Project:</strong> {props.title}</p>
+        <p><strong>Link to:</strong>  <a href={props.deployLink}>Deployed App</a></p>
+        <p><strong>Link to:</strong>  <a href={props.githubLink}>GitHub</a></p>
+        </div>
       </div>
-      <div className="content">
-        <ul>
-          <li>
-            <strong>Project</strong> {props.title}
-          </li>
-          <li>
-            <strong>Deployed link: </strong> {props.deployLink}
-          </li>
-          <li>
-            <strong>Github link:</strong> {props.githubLink}
-          </li>
-        </ul>
-      </div>
-    </div>
     </>
   );
 }
 
 export default FriendCard;
+
+ <p>GitHub: <a href="https://github.com/grazulisedgars/">grazulisedgars</a></p>
+            
