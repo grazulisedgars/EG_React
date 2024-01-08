@@ -19,6 +19,4 @@ function FriendCard(props) {
 }
 
 export default FriendCard;
-
- <p>GitHub: <a href="https://github.com/grazulisedgars/">grazulisedgars</a></p>
             

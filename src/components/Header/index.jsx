@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../Header/Header.css"
 
 function Header() {
@@ -10,9 +11,15 @@ function Header() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                    <a className="nav-item nav-link active" href="#">Home</a>
-                    <a className="nav-item nav-link" href="#">Projects</a>
-                    <a className="nav-item nav-link" href="#">Contact</a>
+                <Link to="/EG_React" className="nav-item nav-link active">
+            Home
+          </Link>
+          <Link to="/projectspage" className="nav-item nav-link">
+            Projects
+          </Link>
+          <Link to="/contact" className="nav-item nav-link">
+            Contact
+          </Link>
                 </div>
             </div>
         </nav>
@@ -20,3 +27,4 @@ function Header() {
 }
 
 export default Header;
+
