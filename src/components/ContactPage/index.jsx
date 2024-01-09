@@ -8,7 +8,7 @@ function ContactPage() {
         <div className="contactForm">
             <h2 className="contactHeader">Contact Information</h2>
             <p>Email address: <a href={`mailto:${emailAddress}`}>{emailAddress}</a></p>
-            <p>Download CV: <a href="src/assets/CV/Edgars Grazulis CV UK.pdf" target="_blank" rel="noopener noreferrer"> (PDF) </a>
+            <p>Download CV: <a href="https://docs.google.com/document/d/1CJx8PTsxb5XMf5U-tRl5xxoMarBO7Q1sxHUMjGQwEts/edit?usp=sharing" target="_blank" rel="noopener noreferrer"> (PDF) </a>
             </p>
             <p>
                 GitHub: <a href="https://github.com/grazulisedgars/">grazulisedgars</a>
