@@ -4,42 +4,42 @@
         "title": "Go Where?",
         "deployLink": "https://grazulisedgars.github.io/Go_Where/",
         "githubLink": "https://github.com/grazulisedgars/Go_Where",
-        "screenshot": "src/assets/projectPhoto/Go_Where-01.jpg"
+        "screenshot": "https://i.imgur.com/jJkf7TX.jpg"
     },
     {
         "id": 2,
         "title": "EG Team Gen",
         "deployLink": "https://grazulisedgars.github.io/EG-Team-GEN/",
         "githubLink": "https://github.com/grazulisedgars/EG-Team-GEN",
-        "screenshot": "src/assets/projectPhoto/EG-Team-Gen-01.jpg"
+        "screenshot": "https://i.imgur.com/3nhs3hf.jpg"
     },
     {
         "id": 3,
         "title": "Edgars Weather App",
         "deployLink": "https://grazulisedgars.github.io/Edgars-Weather-App/",
         "githubLink": "https://github.com/grazulisedgars/Edgars-Weather-App",
-        "screenshot": "src/assets/projectPhoto/Edgars-Weather-App-01.jpg"
+        "screenshot": "https://i.imgur.com/EHTdsWl.jpg"
     },
     {
         "id": 4,
         "title": "Edgars Daily Planner",
         "deployLink": "https://grazulisedgars.github.io/Edgars-Daily-Planner/",
         "githubLink": "https://github.com/grazulisedgars/Edgars-Daily-Planner",
-        "screenshot": "src/assets/projectPhoto/Edgars-Daily-Planner-01.jpg"
+        "screenshot": "https://i.imgur.com/MUDP8cw.jpg"
     },
     {
         "id": 5,
         "title": "Edgars Music Quiz",
         "deployLink": "https://grazulisedgars.github.io/Edgars-Music-Quiz/",
         "githubLink": "https://github.com/grazulisedgars/Edgars-Music-Quiz",
-        "screenshot": "src/assets/projectPhoto/Edgars-Music-Quiz-01.jpg"
+        "screenshot": "https://i.imgur.com/Gn1IoZ8.jpg"
     },
     {
         "id": 6,
         "title": "EG Password Gen",
         "deployLink": "https://grazulisedgars.github.io/EG-password-gen/",
         "githubLink": "https://github.com/grazulisedgars/EG-password-gen",
-        "screenshot": "src/assets/projectPhoto/EG-password-gen-01.jpg"
+        "screenshot": "https://i.imgur.com/arSTQ29.jpg"
     }
     
 ]

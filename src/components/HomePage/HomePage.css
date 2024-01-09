@@ -92,8 +92,8 @@
 @media (min-width: 425px) {
     .custom-p-5 {
         background-image: url("../../assets/images/ReactPhoto1.jpeg");
-        background-size: 111%;
-        background-position: 230% 82%;
+        background-size: 110%;
+        background-position: 230% 50%;
         height: 625px;
     }
 }
