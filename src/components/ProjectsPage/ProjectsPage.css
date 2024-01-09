@@ -2,3 +2,10 @@
     padding-top: 3vw;
     padding-left: 5vw;
 }
+
+/* 4K h2 */
+@media (min-width: 2560px) {
+    .projects-page-h2 {
+        font-size: 3vw;
+    }
+}

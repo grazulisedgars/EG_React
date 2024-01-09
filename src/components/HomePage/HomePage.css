@@ -3,8 +3,6 @@
     padding-bottom: 3vw;
     text-align: right;
     background-image: url("../../assets/images/ReactPhoto.jpeg");
-    background-size: 123%;
-    background-position: 194% 35%;
 }
 
 /* Text color */
@@ -38,12 +36,124 @@
     }
 }
 
-/* Small screen text */
+/* ---------------------------------------- */
+
+/* Mobile Small Background photo */
 @media (min-width: 320px) {
     .display-5 {
         font-size: 8vw !important;
     }
+
+    .custom-py-5 {
+        padding-top: 3vw;
+        color: black;
+    }
+
+    .c-fs-4 {
+        margin-right: 5vw;
+        padding-top: 2vw;
+        padding-left: 40vw;
+    }
+
+    .custom-p-5 {
+        background-image: url("../../assets/images/ReactPhoto1.jpeg");
+        background-size: 132%;
+        background-position: 96% 850%;
+        height: 625px;
+    }
 }
+
+/* ---------------------------------------- */
+
+/* Mobile Medium Background photo */
+@media (min-width: 375px) {
+    .custom-py-5 {
+        padding-top: 3vw;
+        color: black;
+    }
+
+    .c-fs-4 {
+        margin-right: 5vw;
+        padding-top: 5vw;
+        padding-left: 40vw;
+    }
+
+    .custom-p-5 {
+        background-image: url("../../assets/images/ReactPhoto1.jpeg");
+        background-size: 124%;
+        background-position: 123% 100%;
+        height: 625px;
+    }
+}
+
+/* ---------------------------------------- */
+
+/* Mobile Large Background photo */
+@media (min-width: 425px) {
+    .custom-p-5 {
+        background-image: url("../../assets/images/ReactPhoto1.jpeg");
+        background-size: 111%;
+        background-position: 230% 82%;
+        height: 625px;
+    }
+}
+
+/* ---------------------------------------- */
+
+/* Tablet photo */
+@media (min-width: 768px) {
+    .custom-p-5 {
+        background-image: url("../../assets/images/ReactPhoto1.jpeg");
+        background-size: 73%;
+        background-position: -56% 77%;
+        height: 625px;
+        background-repeat: no-repeat;
+    }
+}
+
+/* ---------------------------------------- */
+
+/* Laptop photo */
+@media (min-width: 1024px) {
+    .custom-fs-4 {
+        font-size: 4vw;
+        margin-right: 3vw;
+
+    }
+
+    .c-fs-4 {
+        font-size: 2.5vw;
+        margin-right: 3vw;
+        padding-left: 45vw;
+    }
+
+    .custom-p-5 {
+        height: 833px;
+    }
+}
+
+/* ---------------------------------------- */
+
+/* Large Laptop photo */
+@media (min-width: 1440px) {
+    .custom-p-5 {
+        height: 961px;
+        background-size: 61%;
+        background-position: -33% 77%;
+    }
+}
+
+/* ---------------------------------------- */
+
+/* 4K photo */
+@media (min-width: 2560px) {
+    .custom-p-5 {
+        height: 1785px;
+    }
+}
+
+/* ---------------------------------------- */
+
 
 /* Padding and font size for small screens */
 @media (min-width: 320px) and (max-width: 425px) {
@@ -54,25 +164,10 @@
     .custom-fs-4 {
         font-size: 4vw;
         margin-right: 3vw;
-        
     }
 
     .c-fs-4 {
         font-size: 2.5vw;
         margin-right: 3vw;
-    }
-}
-
-/* Big screen text */
-@media (min-width: 1024px) and (max-width: 4000px) {
-    .custom-fs-4 {
-        font-size: 4vw;
-        margin-right: 3vw;
-        
-    }
-    .c-fs-4 {
-        font-size: 2.5vw;
-        margin-right: 3vw;
-        padding-left: 45vw;
     }
 }
