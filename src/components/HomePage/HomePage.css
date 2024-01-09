@@ -2,7 +2,6 @@
     padding-top: 3vw;
     padding-bottom: 3vw;
     text-align: right;
-    background-image: url("../../assets/images/ReactPhoto.jpeg");
 }
 
 /* Text color */
@@ -75,7 +74,7 @@
     .c-fs-4 {
         margin-right: 5vw;
         padding-top: 5vw;
-        padding-left: 40vw;
+        padding-left: 55vw;
     }
 
     .custom-p-5 {
