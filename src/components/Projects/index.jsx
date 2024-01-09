@@ -1,7 +1,7 @@
 import React from "react";
 import "../Projects/Project.css"
 
-function FriendCard(props) {
+function Projects(props) {
   return (
     <>
 
@@ -19,5 +19,5 @@ function FriendCard(props) {
   );
 }
 
-export default FriendCard;
+export default Projects;
             

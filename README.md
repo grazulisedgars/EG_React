@@ -40,7 +40,7 @@ Introducing my React portfolio – a dynamic and interactive showcase of my skil
 https://grazulisedgars.github.io/EG_React/
 
 ## Screenshot
-![Alt text](<src/assets/images/Screenshot 2024-01-09 at 15.15.25.png>)
+![Alt text](<src/assets/images/Screenshot 2024-01-09 at 15.18.18.png>)
 
 ## Licence 
 

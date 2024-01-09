@@ -28,44 +28,17 @@ function App() {
         }
         />
         <Route path="projectspage/" element={
-          <DefaultLayout>
+          <DefaultLayout> 
             <ProjectsPage>
-              <Projects
-                title={projects[0].title}
-                screenshot={projects[0].screenshot}
-                deployLink={projects[0].deployLink}
-                githubLink={projects[0].githubLink}
-              />
-              <Projects
-                title={projects[1].title}
-                screenshot={projects[1].screenshot}
-                deployLink={projects[1].deployLink}
-                githubLink={projects[1].githubLink}
-              />
-              <Projects
-                title={projects[2].title}
-                screenshot={projects[2].screenshot}
-                deployLink={projects[2].deployLink}
-                githubLink={projects[2].githubLink}
-              />
-              <Projects
-                title={projects[3].title}
-                screenshot={projects[3].screenshot}
-                deployLink={projects[3].deployLink}
-                githubLink={projects[3].githubLink}
-              />
-              <Projects
-                title={projects[4].title}
-                screenshot={projects[4].screenshot}
-                deployLink={projects[4].deployLink}
-                githubLink={projects[4].githubLink}
-              />
-              <Projects
-                title={projects[5].title}
-                screenshot={projects[5].screenshot}
-                deployLink={projects[5].deployLink}
-                githubLink={projects[5].githubLink}
-              />
+              {projects.map((project, index) => (
+                <Projects
+                  key={index}
+                  title={project.title}
+                  screenshot={project.screenshot}
+                  deployLink={project.deployLink}
+                  githubLink={project.githubLink}
+                />
+              ))}
             </ProjectsPage>
           </DefaultLayout>} />
         <Route path="contact/" element={
