@@ -1,4 +1,5 @@
 import React from "react";
+import "../Projects/Project.css"
 
 function FriendCard(props) {
   return (

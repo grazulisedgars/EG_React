@@ -1,0 +1,118 @@
+.projects-page {
+    padding: 5vw;
+}
+
+.card {
+    margin-bottom: 5vw;
+}
+
+.content {
+    padding-left: 3vw;
+}
+
+.content p {
+    margin-bottom: 3vw;
+}
+
+
+.img-container {
+    width: 100%;
+    height: 250px;
+    background-color: #eee;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+}
+
+/* Card styling large mobile */
+@media (min-width: 425px) {}
+
+.content p {
+    margin-bottom: 2vw;
+}
+
+.img-container {
+    background-color: transparent;
+}
+
+.img-container img {
+    width: 81%;
+    position: relative;
+    top: -6px;
+    left: 34px;
+}
+
+
+/* Card styling tablet */
+@media (min-width: 768px) {
+    .content {
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+
+    .content p {
+        font-size: 2vw;
+        margin-bottom: 1vw;
+    }
+
+    .img-container {
+        background-color: transparent;
+    }
+
+    .img-container img {
+        width: 50%;
+        position: relative;
+        top: 0px;
+        left: 170px;
+    }
+}
+
+/* Card styling laptop */
+@media (min-width: 1024px) {
+    .img-container {
+        height: 275px;
+    }
+    
+    .img-container img {
+        width: 39%;
+        position: relative;
+        top: 0px;
+        left: 273px;
+    }
+}
+
+/* Card Large laptop */
+@media (min-width: 1440px) {
+    .content p {
+        font-size: 1.5vw;
+        margin-bottom: 1vw;
+    }
+    
+    .img-container {
+        height: 450px;
+    }
+
+    .img-container img {
+        width: 49%;
+        position: relative;
+        top: -7px;
+        left: 322px;
+    }
+}
+
+/* Card 4K */
+@media (min-width: 2560px) {
+    .img-container {
+        height: 1000px;
+    }
+
+    .img-container img {
+        width: 55%;
+        position: relative;
+        top: 0px;
+        left: 500px;
+    }
+}
